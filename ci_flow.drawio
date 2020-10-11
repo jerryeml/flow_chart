@@ -1,6 +1,6 @@
-<mxfile modified="2020-10-11T13:25:35.273Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="aUus2uKC1GZR2Rz1cy8W" version="13.7.8" type="github" pages="2">
+<mxfile modified="2020-10-11T14:07:01.014Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="1SizrG6QK0b_aSwOpJPg" version="13.7.8" type="github" pages="2">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
-    <mxGraphModel dx="625" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="sQz1P80SwWylwN8_Y8dJ-0" />
         <mxCell id="sQz1P80SwWylwN8_Y8dJ-1" parent="sQz1P80SwWylwN8_Y8dJ-0" />
@@ -404,10 +404,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d1ab7348-05c3-a1e3-ca4d-12c340fd6b49" name="execution_flow">
-    <mxGraphModel dx="1290" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" target="xDnaRrMoPWGQcSbJ8uNh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="420" as="sourcePoint" />
+            <mxPoint x="2184" y="660.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1594" y="600" />
+              <mxPoint x="2174" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kt00gGW7zIKaOjq4i8ix-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kt00gGW7zIKaOjq4i8ix-1" target="AGGvtxTZ_tka4quPCY7R-416" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -570,7 +580,7 @@
           <mxGeometry x="3200" y="180" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="748" width="60" height="64.5" as="geometry" />
+          <mxGeometry x="2144.18" y="749.5" width="60" height="64.5" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-14" value="Install Server" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#33A64C;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="800" y="180" width="390" height="20" as="geometry" />
@@ -586,6 +596,13 @@
             <mxPoint x="745" y="554" as="targetPoint" />
             <Array as="points">
               <mxPoint x="745" y="686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xDnaRrMoPWGQcSbJ8uNh-33" target="xDnaRrMoPWGQcSbJ8uNh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="782" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -661,15 +678,6 @@
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-64" value="Server" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="3350" y="210" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xDnaRrMoPWGQcSbJ8uNh-33" target="xDnaRrMoPWGQcSbJ8uNh-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="755" y="484" as="sourcePoint" />
-            <mxPoint x="987.6766500000003" y="696.0624999999998" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="745" y="780" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-70" value="assignRunFeatureInfo" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="815" y="301" width="160" height="20" as="geometry" />
         </mxCell>
@@ -706,14 +714,14 @@
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-84" value="enableOSCEDebugLog_server" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="780" y="554" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-85" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-85" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="822.5" y="582" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-86" value="report_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="832.5" y="608" width="135" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-29" value="SMTP Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="650.5" width="51.63" height="62.5" as="geometry" />
+          <mxGeometry x="2148.37" y="650.5" width="51.63" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-1" value="calcTotalCasesToBeRun_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="980" y="301" width="240" height="20" as="geometry" />
@@ -727,16 +735,19 @@
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-4" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1005" y="389" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-5" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="415" width="190" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qavJXOaZ0ZNm3ShUIgj4-6" target="xDnaRrMoPWGQcSbJ8uNh-2">
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.791;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qavJXOaZ0ZNm3ShUIgj4-5" target="xDnaRrMoPWGQcSbJ8uNh-29">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1095" y="530" />
-              <mxPoint x="1095" y="530" />
+              <mxPoint x="1155" y="425" />
+              <mxPoint x="1195" y="425" />
+              <mxPoint x="1195" y="600" />
+              <mxPoint x="2174" y="600" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-5" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="415" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-6" value="check_install_status" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1005" y="445.5" width="190" height="20" as="geometry" />
@@ -780,7 +791,7 @@
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-30" value="task_post.py" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;" vertex="1" parent="1">
           <mxGeometry x="1410" y="267" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-32" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-32" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1597.5" y="634" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-33" value="rebootOSCEAgent" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -813,7 +824,16 @@
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-46" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1805" y="388" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-47" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" target="xDnaRrMoPWGQcSbJ8uNh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="424" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1995" y="600" />
+              <mxPoint x="2174" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-47" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1805" y="414" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-48" value="check_install_status" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -831,7 +851,7 @@
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-53" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1400" y="388" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-54" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-54" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1400" y="414" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-55" value="updateTaskExecStatus" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -849,7 +869,7 @@
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-59" value="deploy" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1250" y="354" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-60" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="qavJXOaZ0ZNm3ShUIgj4-60" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="1220" y="381" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qavJXOaZ0ZNm3ShUIgj4-61" value="report_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -888,9 +908,6 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-12" value="clear_report" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2045" y="353" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-13" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="2015" y="380" width="150" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-14" value="report" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2052.5" y="407" width="75" height="20" as="geometry" />
         </mxCell>
@@ -906,7 +923,15 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-23" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2200" y="380" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-24" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=1.007;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FWcuOfq4grsAHU3PpA7L-24" target="xDnaRrMoPWGQcSbJ8uNh-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2391" y="600" />
+              <mxPoint x="2174" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-24" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2200" y="407" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-25" value="updateTaskExecStatus" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -921,7 +946,7 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-28" value="clear_report" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2445" y="352.5" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-29" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-29" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2415" y="379.5" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-30" value="resetTARSOperation" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -942,7 +967,15 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-35" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2600" y="389" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-36" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=1.007;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FWcuOfq4grsAHU3PpA7L-36" target="xDnaRrMoPWGQcSbJ8uNh-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2791" y="600" />
+              <mxPoint x="2174" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-36" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2600" y="415" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-37" value="updateTaskExecStatus" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -957,7 +990,7 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-42" value="clear_report" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2845" y="352.5" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-43" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-43" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="2815" y="379.5" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-44" value="report" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -978,7 +1011,16 @@
         <mxCell id="FWcuOfq4grsAHU3PpA7L-49" value="uploadReport_OSCESrv" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="3000" y="379.5" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FWcuOfq4grsAHU3PpA7L-50" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=1.007;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FWcuOfq4grsAHU3PpA7L-50" target="xDnaRrMoPWGQcSbJ8uNh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3270" y="416.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3190" y="600" />
+              <mxPoint x="2174" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-50" value="sendMail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="3000" y="406.5" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-51" value="updateTaskExecStatus" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
@@ -989,6 +1031,33 @@
         </mxCell>
         <mxCell id="FWcuOfq4grsAHU3PpA7L-53" value="collectOSCEDumpList" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="3250" y="325.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-13" value="runBVT_distribute" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="2015" y="380" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-55" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99FFCC;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="585" y="721" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWcuOfq4grsAHU3PpA7L-56" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFCCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="585" y="693" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-1" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#99CCFF;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="584.5" y="748" width="95.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-9" value="update dbo.Execstatus" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFFF99;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="794" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-16" value="update dbo.Summary" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFFF99;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="2375" y="740" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-17" value="update dbo.Detail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFFF99;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="2375" y="768" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-18" value="send start mail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFFF99;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="693" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1ggK5PGBnO_Ch4EPWxwY-20" value="send each stage mail" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFFF99;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="2079.18" y="568.5" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
