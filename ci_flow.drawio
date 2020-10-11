@@ -1,4 +1,4 @@
-<mxfile modified="2020-10-11T05:23:48.681Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CCYH3HIVS6Pz3Fr_w7XU" version="13.7.8" type="github" pages="2">
+<mxfile modified="2020-10-11T05:46:31.845Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="S9R0aLenwQT2Eku_ICy4" version="13.7.8" type="github" pages="2">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="1014" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -591,13 +591,22 @@
           <mxGeometry x="2129.23" y="210" width="149.23" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-24" value="Starting" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="759.22" y="292" width="70.39" height="40" as="geometry" />
+          <mxGeometry x="730" y="425" width="70.39" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-26" value="Finished" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="754.4200000000001" y="578" width="80" height="40" as="geometry" />
+          <mxGeometry x="1089.0000000000002" y="428" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xDnaRrMoPWGQcSbJ8uNh-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="760" y="708" width="60" height="64.5" as="geometry" />
+          <mxGeometry x="1160" y="539" width="60" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-29" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="539" width="51.63" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-31" value="prepareTask" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="821.83" y="425" width="116.35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xDnaRrMoPWGQcSbJ8uNh-32" value="postRunTask" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="953.65" y="428" width="116.35" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
