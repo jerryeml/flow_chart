@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-19T17:25:17.052Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="4BpBgjScfaNRh6T9dip_" version="13.8.6" type="github" pages="5">
+<mxfile modified="2020-11-19T17:27:15.234Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="LSpmLkYu4gUjwDszoaBI" version="13.8.6" type="github" pages="5">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1523,7 +1523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of jenkins_automation_pipeline" id="2PhtrHLglYJ5m5oW_f5j">
-    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
         <mxCell id="NFa9wtddSAfV1KUH21-H-0" />
         <mxCell id="NFa9wtddSAfV1KUH21-H-1" parent="NFa9wtddSAfV1KUH21-H-0" />
