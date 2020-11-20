@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-19T18:21:07.081Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="VWhwY-hYIIiJJv7JAOk4" version="13.8.6" type="github" pages="5">
+<mxfile modified="2020-11-20T04:26:13.694Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="SozNQq8hfu7WAE_nU83q" version="13.8.6" type="github" pages="5">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d1ab7348-05c3-a1e3-ca4d-12c340fd6b49" name="execution_flow">
-    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1228,7 +1228,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="jenkins_automation_pipeline" id="3n8NND5oiM-fOwl2O7DL">
-    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="U01wYlxpnFTRGY5mgBjR-0" />
         <mxCell id="U01wYlxpnFTRGY5mgBjR-1" parent="U01wYlxpnFTRGY5mgBjR-0" />
@@ -1333,7 +1333,7 @@
             <mxPoint x="428.96143817309985" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pamnjj7FvDmnxlXf3VAB-22" value="TBD&lt;br&gt;In the future" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_pipeline;" parent="U01wYlxpnFTRGY5mgBjR-1" vertex="1">
+        <mxCell id="Pamnjj7FvDmnxlXf3VAB-22" value="One Click and GB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_pipeline;" parent="U01wYlxpnFTRGY5mgBjR-1" vertex="1">
           <mxGeometry x="200" y="670" width="148.57" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pamnjj7FvDmnxlXf3VAB-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030203;" parent="U01wYlxpnFTRGY5mgBjR-1" source="Pamnjj7FvDmnxlXf3VAB-27" target="Pamnjj7FvDmnxlXf3VAB-57" edge="1">
