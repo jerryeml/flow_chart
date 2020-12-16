@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-16T09:04:36.090Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mHWtxCPV0kSUF0pHs6TN" version="14.0.3" type="github" pages="6">
+<mxfile modified="2020-12-16T09:10:38.355Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3OVk3_MY-ajXx1UyFt_t" version="14.0.3" type="github" pages="6">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1753,7 +1753,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6F_-y6LY-Y1vLErNi-RF" name="SAAS2.0 FLOW">
-    <mxGraphModel dx="1038" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="731" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="2g1EvMZUvk8GucfWhI6y-0" />
         <mxCell id="2g1EvMZUvk8GucfWhI6y-1" parent="2g1EvMZUvk8GucfWhI6y-0" />
@@ -1769,7 +1769,7 @@
           <mxGeometry x="170" y="150" width="670" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-19" value="Jenkins on AWS&#39;s Job" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#e1d5e7;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
-          <mxGeometry x="50" y="25" width="668.44" height="90" as="geometry" />
+          <mxGeometry x="50" y="25" width="668.44" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aTRIXSYgalDM-YNeHb8B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2g1EvMZUvk8GucfWhI6y-1" source="C2VfdGme6SBUUaQG8MOf-0" target="aTRIXSYgalDM-YNeHb8B-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1960,7 +1960,7 @@
         <mxCell id="Y-YuhE396NAjoBVDEsop-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="2g1EvMZUvk8GucfWhI6y-1" source="Y-YuhE396NAjoBVDEsop-44" target="Y-YuhE396NAjoBVDEsop-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-YuhE396NAjoBVDEsop-44" value="DEV Agent" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#D5E8D4;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
+        <mxCell id="Y-YuhE396NAjoBVDEsop-44" value="DEV/STAGE Agent" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#D5E8D4;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
           <mxGeometry x="430" y="600" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-46" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Pass rate = 100 %&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
@@ -1972,7 +1972,7 @@
         <mxCell id="Y-YuhE396NAjoBVDEsop-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="2g1EvMZUvk8GucfWhI6y-1" source="Y-YuhE396NAjoBVDEsop-51" target="Y-YuhE396NAjoBVDEsop-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-YuhE396NAjoBVDEsop-51" value="DEV Service" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#b85450;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#f8cecc;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
+        <mxCell id="Y-YuhE396NAjoBVDEsop-51" value="DEV/STAGE Service" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#b85450;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#f8cecc;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
           <mxGeometry x="10" y="600" width="400" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-57" value="Service A" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
