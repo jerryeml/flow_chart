@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-16T10:15:26.132Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NsEuO-BdE0KLFaq7MMtw" version="14.0.3" type="github" pages="6">
+<mxfile modified="2020-12-16T10:54:40.989Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7qPO00cm7Yu03a8CJ8FL" version="14.0.3" type="github" pages="6">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1757,6 +1757,9 @@
       <root>
         <mxCell id="2g1EvMZUvk8GucfWhI6y-0" />
         <mxCell id="2g1EvMZUvk8GucfWhI6y-1" parent="2g1EvMZUvk8GucfWhI6y-0" />
+        <mxCell id="Y-YuhE396NAjoBVDEsop-88" value="Testing" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#D5E8D4;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
+          <mxGeometry x="170" y="350" width="670" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="2g1EvMZUvk8GucfWhI6y-1" source="Y-YuhE396NAjoBVDEsop-0" target="Y-YuhE396NAjoBVDEsop-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1766,7 +1769,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-0" value="Testing" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelPosition=center;verticalLabelPosition=bottom;fillColor=#D5E8D4;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
-          <mxGeometry x="170" y="150" width="670" height="340" as="geometry" />
+          <mxGeometry x="170" y="150" width="670" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Y-YuhE396NAjoBVDEsop-19" value="Jenkins on AWS&#39;s Job" style="html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=5;whiteSpace=wrap;align=center;verticalAlign=top;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#e1d5e7;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" parent="2g1EvMZUvk8GucfWhI6y-1">
           <mxGeometry x="50" y="25" width="668.44" height="85" as="geometry" />
