@@ -1,4 +1,4 @@
-<mxfile modified="2021-05-18T06:14:15.546Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bRHtu2peSE-Ety2Wi-UG" version="14.6.13" type="github" pages="6">
+<mxfile modified="2021-05-18T13:20:25.504Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LsQQ446hVn8oRE9j32-J" version="14.6.13" type="github" pages="6">
   <diagram id="d_7f4tTWWCVDiMLqgLV2" name="ci_runner_jenkins_flow">
     <mxGraphModel dx="616" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2103,7 +2103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4uV2mV-iyD8_pQh6prqH" name="aladdin">
-    <mxGraphModel dx="828" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="598" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LJyUpKTwq3h1w9oA5S51-0" />
         <mxCell id="LJyUpKTwq3h1w9oA5S51-1" parent="LJyUpKTwq3h1w9oA5S51-0" />
@@ -2122,7 +2122,7 @@
         <mxCell id="UmBzNqc3Q11lvvwC0VkV-4" value="Monitor Spec Change service resource" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="LJyUpKTwq3h1w9oA5S51-1" vertex="1">
           <mxGeometry x="170" y="190" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IXDg6P7zXXBYh3PDIQOa-0" value="What can pipeline monitor ?" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="LJyUpKTwq3h1w9oA5S51-1" vertex="1">
+        <mxCell id="IXDg6P7zXXBYh3PDIQOa-0" value="What can monitor pipeline do?" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="LJyUpKTwq3h1w9oA5S51-1" vertex="1">
           <mxGeometry x="50" y="20" width="460" height="36.47" as="geometry" />
         </mxCell>
         <mxCell id="IXDg6P7zXXBYh3PDIQOa-1" value="Config change" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#004C99;" parent="LJyUpKTwq3h1w9oA5S51-1" vertex="1">
